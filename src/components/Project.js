@@ -2,7 +2,7 @@ import React from "react";
 
 function Project(props) {
   return (
-    <div clasName="project">
+    <div className="project">
       <h2>{props.title}</h2>
       <p>{props.discription}</p>
       <a href={props.deployedLink}>Deployed App</a>
@@ -12,5 +12,4 @@ function Project(props) {
   )
 }
     
-
 export default Project;
