@@ -9,7 +9,7 @@ function Navbar() {
         <ul>
           <li>
             <Link
-              to="/"
+              to="/home"
               // className={
               //   window.location.pathname === "/" || window.location.pathname === "/home"
               //     ? "hide-link"
