@@ -1,13 +1,13 @@
 import React from "react";
 
 
-function Header(props) {
+function Footer() {
   return (
     <footer>
-    <p>{'\u00a9 Eric Heltemes'}</p>
- </footer>
+      <p>{'\u00a9 Eric Heltemes'}</p>
+    </footer>
 
   );
 }
 
-export default Header;
+export default Footer;

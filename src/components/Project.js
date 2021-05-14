@@ -3,11 +3,15 @@ import React from "react";
 function Project(props) {
   return (
     <div className="project">
-      <h2>{props.title}</h2>
+      <h3>{props.title}</h3>
       <p>{props.discription}</p>
-      <a href={props.deployedLink}>Deployed App</a>
-      <a href={props.githubLink}>GitHub Repo</a>
-      <img src={props.img} alt={props.title}/>
+      <div className="image">
+        <img src={props.img} alt={props.title}/>
+      </div>
+      <div className="links">
+        <a href={props.deployedLink} target="_blank" rel="noreferrer">Deployed App</a>
+        <a href={props.githubLink} target="_blank" rel="noreferrer">GitHub Repo</a>
+      </div>
     </div>
   )
 }

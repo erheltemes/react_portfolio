@@ -10,11 +10,11 @@ function Navbar() {
           <li>
             <Link
               to="/"
-              className={
-                window.location.pathname === "/" || window.location.pathname === "/home"
-                  ? "hide-link"
-                  : "show-link"
-              }
+              // className={
+              //   window.location.pathname === "/" || window.location.pathname === "/home"
+              //     ? "hide-link"
+              //     : "show-link"
+              // }
             >
               Home
             </Link>
@@ -22,9 +22,9 @@ function Navbar() {
           <li>
             <Link
               to="/projects"
-              className={window.location.pathname === "/projects" 
-                ? "hide-link" 
-                : "show-link"}
+              // className={window.location.pathname === "/projects" 
+              //   ? "hide-link" 
+              //   : "show-link"}
             >
               Projects
             </Link>
@@ -32,9 +32,9 @@ function Navbar() {
           <li>
             <Link
               to="/contact"
-              className={window.location.pathname === "/contact" 
-                ? "hide-link" 
-                : "show-link"}
+              // className={window.location.pathname === "/contact" 
+              //   ? "hide-link" 
+              //   : "show-link"}
             >
               Contact
             </Link>

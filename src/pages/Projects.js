@@ -4,7 +4,7 @@ import projectsArr from "../projectsData"
 
 function Projects () {
   return (
-    <div>
+    <div className="projects-container">
       {projectsArr.map((project, index) => (
                   <Project key={index} {...project}/>
                 ))}

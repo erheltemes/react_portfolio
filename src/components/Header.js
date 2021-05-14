@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./Navbar"
 
-function Header(props) {
+function Header() {
   return (
     <header>
       <h1>Eric Heltemes</h1>

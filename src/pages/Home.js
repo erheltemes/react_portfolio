@@ -20,6 +20,7 @@ function Home() {
       </div>
 
       <div className="featured-project">
+        <h2>Featured Project</h2>
         <Project key={0} {...projectsArr[0]}/>
       </div>
 

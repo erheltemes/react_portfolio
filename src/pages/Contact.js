@@ -2,7 +2,7 @@ import React from "react";
 
 function Contact () {
   return (
-    <div>
+    <div className="contact-page">
       <div class="core-contact">
           <h2>Contact</h2>
           <ul>
@@ -14,13 +14,14 @@ function Contact () {
               </li>
               <li>(XXX)XXX-XXXX</li>
           </ul>
-
       </div>
+
       <form>
           <h2>Email Me</h2>
+          <p>(Email not operational)</p>
           <input id="user-email" placeholder="Your Email"/>
           <div>
-              <textarea></textarea>
+              <textarea placeholder="Email Body"></textarea>
               <button id="send-email" type="submit">Send</button>
           </div>
       </form>
