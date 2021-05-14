@@ -13,6 +13,7 @@ function App() {
     <Router>
       <div>
         <Header />
+          <Route exact path={"/react_portfolio"} component={Home} />
           <Route exact path={"/" } component={Home} />
           <Route exact path={"/home"} component={Home} />
           <Route exact path="/projects" component={Projects} />
