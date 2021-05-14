@@ -9,7 +9,7 @@ function Navbar() {
         <ul>
           <li>
             <Link
-              to="/home"
+              to="/react_portfolio/home"
               // className={
               //   window.location.pathname === "/" || window.location.pathname === "/home"
               //     ? "hide-link"
@@ -21,7 +21,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/projects"
+              to="/react_portfolio/projects"
               // className={window.location.pathname === "/projects" 
               //   ? "hide-link" 
               //   : "show-link"}
@@ -31,7 +31,7 @@ function Navbar() {
           </li>
           <li>
             <Link
-              to="/contact"
+              to="/react_portfolio/contact"
               // className={window.location.pathname === "/contact" 
               //   ? "hide-link" 
               //   : "show-link"}
