@@ -1,5 +1,12 @@
 const projectsArr = [
   {
+    title: "Multiplayer Online Gin",
+    discription: "MERN project with login functionality, uses websockets",
+    deployedLink: "https://floating-ravine-14544.herokuapp.com/",
+    githubLink: "https://github.com/rashidk83/project3.git",
+    img: "/img/gin_screenshot.jpg",
+  },
+  {
     title: "Employee Directory",
     discription: "React",
     deployedLink: "https://erheltemes.github.io/employee_directory/",
