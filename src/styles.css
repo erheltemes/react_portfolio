@@ -5,20 +5,37 @@
   font-family: Arial, Helvetica, sans-serif;
 }
 
+:root {
+  --main-color: rgba(193, 151, 212, 0.863); 
+  --main-color-2: rgb(58, 49, 92);
+}
+
 body {
   text-align: center;
+  min-height: 100vh;
+  height: 100%;
+  position: relative;
+  background-color: rgb(251, 240, 255);
+  color: var(--main-color-2)
+}
+
+a {
+  color: var(--main-color-2)
+}
+
+a:hover {
+  color: rgb(66, 66, 250);
 }
 
 /* HEADER */
 header {
   text-align: center;
-  background:rgb(170, 98, 170);
-  border-bottom: rgba(46, 45, 45, 0.815) solid 3px;
+  background: var(--main-color);
+  border-bottom: var(--main-color-2) solid 3px;
   margin-bottom: 20px;
 }
 
 h1 {
-  color: black;
   font-size: 2rem;
   padding: 5px;
 }
@@ -43,7 +60,7 @@ main {
 }
 
 .profile {
-    border-bottom: rgba(46, 45, 45, 0.815) solid 3px;
+  border-bottom: var(--main-color-2) solid 3px;
 }
 
 .about-me a {
@@ -55,6 +72,8 @@ main {
   width: 80%;
   height: auto;
   max-width: 400px;
+  border-radius: 0px;
+  border: var(--main-color-2) 3px solid;
 }
 
 .about-me {
@@ -64,12 +83,29 @@ main {
   max-width: 400px;
 } 
 
+.about-me p {
+  text-align: left;
+}
+
 /* PROJECT */
+
+.projects-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} 
 
 .project {
   width: 90%;
-  margin: 40px auto;
-  max-width: 400px
+  margin: 40px 5px;
+  padding: 10px;
+  max-width: 400px;
+}
+
+.featured-project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .featured-project h2 {
@@ -79,7 +115,7 @@ main {
 .project img {
   width: 100%;
   height: auto;
-  border:rgba(46, 45, 45, 0.815) solid 3px;
+  border: var(--main-color-2) solid 3px;
 }
 
 .links {
@@ -140,9 +176,12 @@ form button {
 
 footer {
   padding: 10px;
-  background:rgb(170, 98, 170);
-  border-top: rgba(46, 45, 45, 0.815) solid 3px;
+  background: var(--main-color);
+  border-top: var(--main-color-2) solid 3px;
   margin-top: 20px;
+  position: absolute;
+  width: 100%;
+  bottom: 0px;
 }
 
 @media screen and (min-width: 992px) {
@@ -154,8 +193,10 @@ footer {
 
   .projects-container {
     display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items: flex-end;
+    align-items: flex-end; 
+    justify-content: center;
   }  
 } 
 
