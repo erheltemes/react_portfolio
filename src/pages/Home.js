@@ -17,7 +17,7 @@ function Home() {
           <p>
             Full Stack Developer who blends systemic and creative approaches to solve problems. Earned certificate in web development from University of Minnesota where I honed my technical skills in node.js, databases, and react.js, and exercised my ability to learn quickly while still delivering quality products. Completing undergraduate degree in Music for Film TV & Games and working on many musical productions as a Music Director has given me experience in working with others to complete large projects both in leadership and collaborative positions. Driven to write efficient, organized, scaleable code that is easy for developers to modify while still considering the user experience Strong ability to plan ahead, work efficiently, communicate, and remain flexible.
           </p>
-          <a href={process.env.PUBLIC_URL + "/web-development-resume_06_02_2021.pdf"} target="_blank" rel="noreferrer">Resume</a>
+          <a href={process.env.PUBLIC_URL + "/Web_Development_Resume_06-07-2021.pdf"} target="_blank" rel="noreferrer">Resume</a>
         </div>
       </div>
 

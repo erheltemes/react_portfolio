@@ -7,7 +7,7 @@
 
 :root {
   --main-color: rgba(193, 151, 212, 0.863); 
-  --main-color-2: rgb(58, 49, 92);
+  --main-color-2: rgb(63, 45, 128);
 }
 
 body {
@@ -32,7 +32,6 @@ header {
   text-align: center;
   background: var(--main-color);
   border-bottom: var(--main-color-2) solid 3px;
-  margin-bottom: 20px;
 }
 
 h1 {
@@ -50,6 +49,10 @@ nav ul li {
   margin: 2px 5px;
 }
 
+.page-links {
+  margin-bottom: 5px;
+}
+
 /* nav .hide-link {
   display: none;
 } */
@@ -60,6 +63,7 @@ main {
 }
 
 .profile {
+  padding-top: 4px;
   border-bottom: var(--main-color-2) solid 3px;
 }
 
@@ -97,7 +101,7 @@ main {
 
 .project {
   width: 90%;
-  margin: 40px 5px;
+  margin: 40px 5px 20px 5px;
   padding: 10px;
   max-width: 400px;
 }
@@ -129,7 +133,7 @@ main {
 
 /* CONTACT */
 
-.core-contact ul {
+/* .core-contact ul {
   display: flex;
   justify-content: center;
   list-style: none;
@@ -170,7 +174,7 @@ form button {
   display: block;
   width: 50px;
   float: right;
-} 
+}  */
 
 /* FOOTER */
 
@@ -179,9 +183,17 @@ footer {
   background: var(--main-color);
   border-top: var(--main-color-2) solid 3px;
   margin-top: 20px;
-  position: absolute;
+  /* position: absolute; */
   width: 100%;
   bottom: 0px;
+}
+
+footer ul {
+  list-style: none;
+}
+
+footer ul li {
+  margin: 5px 10px;
 }
 
 @media screen and (min-width: 992px) {
@@ -197,7 +209,19 @@ footer {
     flex-wrap: wrap;
     align-items: flex-end; 
     justify-content: center;
+    margin-bottom: 20px;
   }  
+
+  nav {
+    padding: 0px, 10px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  footer ul {
+    display: flex;
+    justify-content: center;
+  }
 } 
 
 /* @media screen and (max-width: 576px) {

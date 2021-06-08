@@ -6,40 +6,29 @@ import { Link } from "react-router-dom";
 function Navbar() {
   return (
     <nav>
-        <ul>
-          <li>
-            <Link
-              to="/react_portfolio/home"
-              // className={
-              //   window.location.pathname === "/" || window.location.pathname === "/home"
-              //     ? "hide-link"
-              //     : "show-link"
-              // }
-            >
-              Home
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/react_portfolio/projects"
-              // className={window.location.pathname === "/projects" 
-              //   ? "hide-link" 
-              //   : "show-link"}
-            >
-              Projects
-            </Link>
-          </li>
-          <li>
-            <Link
-              to="/react_portfolio/contact"
-              // className={window.location.pathname === "/contact" 
-              //   ? "hide-link" 
-              //   : "show-link"}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+      <ul className="page-links">
+        <li>
+          <Link to="/react_portfolio/home">
+            Home
+          </Link>
+        </li>
+        <li>
+          <Link to="/react_portfolio/projects">
+            Projects
+          </Link>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/eric-heltemes" target="_blank" rel="noreferrer">LinkedIn</a>
+        </li>
+        <li>
+          <a href="https://github.com/erheltemes" target="_blank" rel="noreferrer">GitHub</a>
+        </li>
+        {/* <li>
+          <Link to="/react_portfolio/contact">
+            Contact
+          </Link>
+        </li> */}
+      </ul>
     </nav>
   );
 }
