@@ -5,7 +5,7 @@ function Project(props) {
   return (
     <div className="project">
       <h3>{props.title}</h3>
-      <p>{props.discription}</p>
+      <p>{props.description}</p>
       <div className="image">
         <img src={process.env.PUBLIC_URL +props.img} alt={props.title}/>
       </div>
