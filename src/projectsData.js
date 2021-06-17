@@ -1,7 +1,7 @@
 const projectsArr = [
   {
     title: "Multiplayer Online Gin",
-    description: "MERN app which allows uses to create rooms to play gin with another player and then record their stats.",
+    description: "MERN app which allows users to create rooms to play gin with another player and then record their stats.",
     deployedLink: "https://floating-ravine-14544.herokuapp.com/",
     githubLink: "https://github.com/erheltemes/multiplayer_online_gin.git",
     img: "/img/project-screenshots/gin_screenshot.jpg",
@@ -29,14 +29,14 @@ const projectsArr = [
   },
   {
     title: "Weather Dashboard",
-    description: "App allows user to search a location and view its current weather and 5-day forecast. Past searches are saved in local storage.",
+    description: "App allows users to search a location and view its current weather and 5-day forecast. Past searches are saved in local storage.",
     deployedLink: "https://erheltemes.github.io/weather_dashboard/",
     githubLink: "https://github.com/erheltemes/weather_dashboard.git",
     img: "/img/project-screenshots/weather_dashboard.PNG",
   },
   {
     title: "Work Day Scheduler",
-    description: "App allows user to save notes to day-time hours, to easily schedule their current day. App saves to local storage and highlights the current hour.",
+    description: "App allows users to save notes to day-time hours, to easily schedule their current day. App saves to local storage and highlights the current hour.",
     deployedLink: "https://erheltemes.github.io/work_day_scheduler/",
     githubLink: "https://github.com/erheltemes/work_day_scheduler.git",
     img: "/img/project-screenshots/scheduler_1.PNG",
