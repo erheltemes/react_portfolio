@@ -12,12 +12,26 @@ function Home() {
           <img src={process.env.PUBLIC_URL + "/img/ERIC_HELTEMES_headshot.jpg"} alt="eric_heltemes_headshot"/>
         </div>
 
-        <div id="about-me" className="about-me">
+        <div className="summary">
           <h2>About Me</h2>
-          <p>
-            Full Stack Developer who blends systemic and creative approaches to solve problems. Earned certificate in Web Development from University of Minnesota Coding Bootcamp and completed undergraduate degree in Music Composition for Film, TV, & Games from Berklee Online. Experienced in working on projects as a leader and as a collaborator. Driven to write efficient, organized, scalable code that is easy for developers to modify while still considering the user experience. Strong ability to plan ahead, work efficiently, communicate, and remain flexible.
-          </p>
-          <a href={process.env.PUBLIC_URL + "/Web_Development_Resume_06-07-2021.pdf"} target="_blank" rel="noreferrer">Resume</a>
+          <ul>
+            <li>Full Stack Developer who blends systemic and creative approaches to solve problems.</li>
+            <li>Earned certificate in Web Development from University of Minnesota Coding Bootcamp and completed undergraduate degree in Music Composition for Film, TV, & Games from Berklee Online.</li>
+            <li>Experienced in working on projects as a leader and as a collaborator.</li>
+            <li>Driven to write efficient, organized, scalable code that is easy for developers to modify while still considering the user experience.</li>
+            <li>Strong ability to plan ahead, work efficiently, communicate, and remain flexible.</li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="about-me" className="profile">
+        <div className="summary">
+        <h2>Technical Skills</h2>
+          <ul>
+            <li><i>Languages:</i> HTML5, CSS, JavaScript, SQL, NoSQL</li>
+            <li><i>Applications:</i> MySQL, MongoDB, Github, Insomnia</li>
+            <li><i>Tools:</i> jQuery, Express, Node, React.js, Handlebars</li>
+          </ul>
         </div>
       </div>
 
