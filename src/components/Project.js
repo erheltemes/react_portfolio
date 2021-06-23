@@ -17,7 +17,7 @@ function Project(props) {
         <img className={display.shown ? "opacity" : ""} src={process.env.PUBLIC_URL +props.img} alt={props.title}/>
         <div className={display.shown ? 'project-des-show' : "project-des-hide"}>
           <p><i>Description: </i>{props.description}</p>
-          <p><i>Technolgies Used: </i>{props.techs_used}</p>
+          <p><i>Technologies Used: </i>{props.techs_used}</p>
         </div>
       </div>
       <div className="links">
