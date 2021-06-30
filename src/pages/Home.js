@@ -15,7 +15,7 @@ function Home() {
         <div className="summary">
           <h2>About Me</h2>
           <ul>
-            <li>Full Stack Developer who blends systemic and creative approaches to solve problems.</li>
+            <li>Full Stack Developer who blends systematic and creative approaches to solve problems.</li>
             <li>Earned certificate in Web Development from University of Minnesota Coding Bootcamp and completed undergraduate degree in Music Composition for Film, TV, & Games from Berklee Online.</li>
             <li>Experienced in working on projects as a leader and as a collaborator.</li>
             <li>Driven to write efficient, organized, scalable code that is easy for developers to modify while still considering the user experience.</li>

@@ -27,7 +27,7 @@ function Navbar() {
             <a href="https://github.com/erheltemes" target="_blank" rel="noreferrer">GitHub</a>
           </li>
           <li>
-            <a href={process.env.PUBLIC_URL + "/heltemes_web_development_resume_6-23-2021.pdf"} target="_blank" rel="noreferrer">Resume</a>
+            <a href={process.env.PUBLIC_URL + "/heltemes_web_development_resume_06-30-2021.pdf"} target="_blank" rel="noreferrer">Resume</a>
           </li>
         </li>
       </ul>
