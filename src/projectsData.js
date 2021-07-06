@@ -37,7 +37,7 @@ const projectsArr = [
     techs_used: "Javascript, OpenWeather API, CSS, HTML",
     deployedLink: "https://erheltemes.github.io/weather_dashboard/",
     githubLink: "https://github.com/erheltemes/weather_dashboard.git",
-    img: "/img/project-screenshots/weather_dashboard.PNG",
+    img: "/img/project-screenshots/weather_dashboard_screenshot.PNG",
   },
   {
     title: "Work Day Scheduler",
