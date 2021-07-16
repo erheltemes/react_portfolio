@@ -1,5 +1,13 @@
 const projectsArr = [
   {
+    title: "Life at Home, Professional Website and Blog",
+    description: "MERN stack customizable website template which allows client to post to multiple pages and edit boxes on the home page.",
+    techs_used: "React, MongoDB, Node, Express, Axios, Calendly, Sass, Material-UI, Bcrypt, Email-Js.",
+    deployedLink: "https://boiling-anchorage-71498.herokuapp.com/",
+    githubLink: "https://github.com/erheltemes/life_at_home_fork.git",
+    img: "/img/project-screenshots/life-at-home-screenshot-2.PNG",
+  },
+  {
     title: "Multiplayer Online Gin",
     description: "MERN app which allows users to create rooms to play gin with another player and then record their stats.",
     techs_used: "React, MongoDB, Express, Node, Websockets, CSS/Bootstrap.",
